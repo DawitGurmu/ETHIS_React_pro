@@ -1,3 +1,4 @@
+
 .App {
   text-align: center;
 }
@@ -19,4 +20,13 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+body{
+  background: url(./midea_file/coffee-2797638_1920.jpg) no-repeat center center fixed;
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  
 }
