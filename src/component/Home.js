@@ -1,15 +1,14 @@
 import React from 'react';
-import './App.css';
-import {Card,Container,Row,Col} from 'react-bootstrap';
-import CardComp from './component/CardComp';
-import MainComp from './component/MainComp';
+import '../App.css';
+import {Row,Col} from 'react-bootstrap';
+import CardComp from './CardComp';
+import MainComp from './MainComp';
 
 function Home() {
 
   return (
  <div className="App">
- <Container>
-
+ <div>
  <br/>
  <br/>
  <br/>
@@ -24,7 +23,7 @@ function Home() {
   </Row>
 
 
-</Container>
+</div>
 </div>
   );
 }
